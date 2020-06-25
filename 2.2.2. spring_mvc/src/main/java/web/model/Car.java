@@ -2,18 +2,9 @@ package web.model;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name = "cars")
 public class Car {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     int series;
-
-    @Column
     String brand;
-
-    @Column
     String model;
 
     public Car() {

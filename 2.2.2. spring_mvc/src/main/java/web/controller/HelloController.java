@@ -28,7 +28,7 @@ public class HelloController {
 
 	@GetMapping(value = "/cars")
 	public String getAllCars(ModelMap model) {
-		List<Car> carList = carService.getAllCar();
+		List<Car> carList = carService.getAllCars();
 		model.addAttribute("cars", carList);
 		return "cars";
 	}
