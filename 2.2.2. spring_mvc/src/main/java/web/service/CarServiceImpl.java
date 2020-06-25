@@ -8,7 +8,7 @@ import java.util.List;
 public class CarServiceImpl implements CarService {
 
     @Override
-    public List<Car> getAllCar() {
+    public List<Car> getAllCars() {
         List<Car> carList = new ArrayList<>();
         Car bmw = new Car(1, "BMW", "X7");
         Car subaru = new Car(2, "Subaru", "Impreza");
